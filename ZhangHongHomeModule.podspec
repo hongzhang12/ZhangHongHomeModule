@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZhangHongHomeModule'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZhangHongHomeModule.'
+  s.version          = '0.1.1'
+  s.summary          = '主页'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

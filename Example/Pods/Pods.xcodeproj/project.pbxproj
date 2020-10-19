@@ -7,33 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		038E760A617104351FCEC8DD62BBE6AE /* Pods-ZhangHongHomeModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 343E147C945E4CB08CC601E188C415BB /* Pods-ZhangHongHomeModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07F10687FD1745D693DFE23B3A5D0733 /* Pods-ZhangHongHomeModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49827CB08B54D1097E5D9985A58554B3 /* Pods-ZhangHongHomeModule_Tests-dummy.m */; };
-		522BBEB9F90BF8DEAA8C74C5726D6D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		701F9E0268B7676D9169175DC0EBC808 /* ZHHomeController.h in Headers */ = {isa = PBXBuildFile; fileRef = D78DB852F5E63B5A51353B6916792A93 /* ZHHomeController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E010629C5037BEAA13495C59F87A7B9 /* Pods-ZhangHongHomeModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B21B656A682F5B6F06115DC3AF8EF9 /* Pods-ZhangHongHomeModule_Example-dummy.m */; };
+		199C559C3546E91FD6C84BAED1B68BBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94024DB06E639618BE2596C724A724BD /* Foundation.framework */; };
+		367843F55DA79910A680D4792BF14E45 /* ZHHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9898ADBDEDFFD585D9245DB0F97DDFF7 /* ZHHomeController.m */; };
+		3CF0201B54E699089C86553C67724919 /* ZhangHongBaseModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC34E8F91B4F9FFCACC32FF7BED7BB7 /* ZhangHongBaseModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61E369F20CD4C9043CBB7B8923B41E49 /* Pods-ZhangHongHomeModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 343E147C945E4CB08CC601E188C415BB /* Pods-ZhangHongHomeModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62DD2ADD7AE7967B1C717D7EE5ABEC0F /* Pods-ZhangHongHomeModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B21B656A682F5B6F06115DC3AF8EF9 /* Pods-ZhangHongHomeModule_Example-dummy.m */; };
+		64DF9A62F3C0EB0B12C62185D7BE32C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94024DB06E639618BE2596C724A724BD /* Foundation.framework */; };
 		7E39BD09357F78EC6505BCDFF9FEE966 /* Pods-ZhangHongHomeModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C060DFAD6AEA32C30FC9CC6D5E3CA7C /* Pods-ZhangHongHomeModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8050FEA23CB6991160B0AD90C90C465E /* ZhangHongHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3740367C8C9CAED5DA1049AE5A446B57 /* ZhangHongHomeModule-dummy.m */; };
-		AC6DF9C79925C7D3262C637F3C0528CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BDD89F62E7C1118B54D6876BC7BBFAC3 /* ZHHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9898ADBDEDFFD585D9245DB0F97DDFF7 /* ZHHomeController.m */; };
-		C2635594245F1B89B71E736A4F821A2A /* ZhangHongHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C7C656D2D74EEEFC3BC1E23EC868C4 /* ZhangHongHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E273F86AB5090E1F95E85327AF2FDA94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8D543D79FC1FA91A094351159FB093BB /* UIColor+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDB90480A607B85376D9EB9969A8F7C /* UIColor+Common.m */; };
+		92DFEECF62ACA96AFCC74568BA06E808 /* ZhangHongBaseModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DF48620EE55D8EBE3C9D1AD8AB3CD1 /* ZhangHongBaseModule.framework */; };
+		A806BFE4763AA8EDABD923693DE939EF /* ZHHomeController.h in Headers */ = {isa = PBXBuildFile; fileRef = D78DB852F5E63B5A51353B6916792A93 /* ZHHomeController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC6DF9C79925C7D3262C637F3C0528CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94024DB06E639618BE2596C724A724BD /* Foundation.framework */; };
+		B02CA7AF342C6356F064FB5CBB16925B /* ZhangHongHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C7C656D2D74EEEFC3BC1E23EC868C4 /* ZhangHongHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB02DC0408604AB187D04C2BFBF47A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94024DB06E639618BE2596C724A724BD /* Foundation.framework */; };
+		C2E1DD24432037C59750690F5C1C9340 /* UIColor+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 78360C39A9D01D1C281123823E6EBDA5 /* UIColor+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAAA20D9F79465E875C7787476866A28 /* ZhangHongHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3740367C8C9CAED5DA1049AE5A446B57 /* ZhangHongHomeModule-dummy.m */; };
+		EB9441BDB66EE4882BA82B2A12827D9F /* ZhangHongBaseModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B19D2D653BDA5AE6DDC20049E9DBCD /* ZhangHongBaseModule-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3462AB8F3328C8721D68191EC4BD4DBC /* PBXContainerItemProxy */ = {
+		0E5FF42623CAB9C9FDB8B01654542422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB73DDBF7277467C4B86EBF3DA4B2169;
+			remoteInfo = ZhangHongBaseModule;
+		};
+		3FEDF361BB98A2AAEB61A2692230D3BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3123653E758F331CBCCDDFF2F485FCB1;
+			remoteInfo = ZhangHongHomeModule;
+		};
+		8AD3D388B74312076112BE0F513EF259 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3689E6124F4107F7CCE9F9F824A745E5;
 			remoteInfo = "Pods-ZhangHongHomeModule_Example";
 		};
-		FA8AB4C8F05D5C4CCB3D2CF6F0311143 /* PBXContainerItemProxy */ = {
+		A9E089DAD21F41BB58F219AC9A833A3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3123653E758F331CBCCDDFF2F485FCB1;
-			remoteInfo = ZhangHongHomeModule;
+			remoteGlobalIDString = AB73DDBF7277467C4B86EBF3DA4B2169;
+			remoteInfo = ZhangHongBaseModule;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -41,12 +61,14 @@
 		0431FAE1B669DEBF8AF98B4DEDF64775 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		09FAFF344D57111441C9B296915EBA31 /* ZhangHongHomeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZhangHongHomeModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0C060DFAD6AEA32C30FC9CC6D5E3CA7C /* Pods-ZhangHongHomeModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZhangHongHomeModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0DC34E8F91B4F9FFCACC32FF7BED7BB7 /* ZhangHongBaseModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZhangHongBaseModule-umbrella.h"; sourceTree = "<group>"; };
+		23DC55A33B06D4976D20A20901EF0F8E /* ZhangHongBaseModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZhangHongBaseModule.debug.xcconfig; sourceTree = "<group>"; };
 		26EDA1D1A8ECA7618632A75E6B0F9EC3 /* Pods-ZhangHongHomeModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZhangHongHomeModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2B0ECE660433E43A926DDF0EA266FA8E /* ZhangHongHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZhangHongHomeModule.modulemap; sourceTree = "<group>"; };
 		3027253CC4945CFF2530ABBCBBDEC58C /* Pods_ZhangHongHomeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZhangHongHomeModule_Tests.framework; path = "Pods-ZhangHongHomeModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		343E147C945E4CB08CC601E188C415BB /* Pods-ZhangHongHomeModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZhangHongHomeModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		35DFFEE3149346D4BFE9F13659980AEC /* Pods-ZhangHongHomeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZhangHongHomeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3646AF73D88465644FE83EF21C6926E8 /* ZhangHongBaseModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZhangHongBaseModule.framework; path = ZhangHongBaseModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3740367C8C9CAED5DA1049AE5A446B57 /* ZhangHongHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZhangHongHomeModule-dummy.m"; sourceTree = "<group>"; };
 		37A44FA629014D13FEDADE339EE95675 /* Pods-ZhangHongHomeModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZhangHongHomeModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		45CA58123F5838CC1AFA2AF759A7FE02 /* Pods-ZhangHongHomeModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZhangHongHomeModule_Example-Info.plist"; sourceTree = "<group>"; };
@@ -58,31 +80,32 @@
 		6978F8BC801B688C2211A2395C567D43 /* Pods-ZhangHongHomeModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZhangHongHomeModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		75C7C656D2D74EEEFC3BC1E23EC868C4 /* ZhangHongHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZhangHongHomeModule-umbrella.h"; sourceTree = "<group>"; };
 		77DBDCF85F065EE348190122E5E9CF4B /* Pods_ZhangHongHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZhangHongHomeModule_Example.framework; path = "Pods-ZhangHongHomeModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78360C39A9D01D1C281123823E6EBDA5 /* UIColor+Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Common.h"; path = "ZhangHongBaseModule/Classes/UIColor+Common.h"; sourceTree = "<group>"; };
+		7A4FA2268315E37A775C20D17637F525 /* ZhangHongBaseModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZhangHongBaseModule-prefix.pch"; sourceTree = "<group>"; };
 		8267D9AEF7D814A346986CB478ECFB8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		85717C7A40C69AAA15BADF9A753AFCB1 /* Pods-ZhangHongHomeModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZhangHongHomeModule_Example.modulemap"; sourceTree = "<group>"; };
+		88EE29F18744D605DC959BA1E4B1AD1F /* ZhangHongBaseModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZhangHongBaseModule.release.xcconfig; sourceTree = "<group>"; };
+		8ED75D30063E3D7850BF3A5C25A5A593 /* ZhangHongBaseModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZhangHongBaseModule-Info.plist"; sourceTree = "<group>"; };
 		8F0DDF1D1CF30E26298569C03B35BDA9 /* Pods-ZhangHongHomeModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZhangHongHomeModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		94024DB06E639618BE2596C724A724BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9898ADBDEDFFD585D9245DB0F97DDFF7 /* ZHHomeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHHomeController.m; path = ZhangHongHomeModule/Classes/Controller/ZHHomeController.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B2843C1BC753A53E20A391AFD597CAC4 /* Pods-ZhangHongHomeModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZhangHongHomeModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C1B21B656A682F5B6F06115DC3AF8EF9 /* Pods-ZhangHongHomeModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZhangHongHomeModule_Example-dummy.m"; sourceTree = "<group>"; };
 		C2AD0B59762C978A09508A79E561EEE3 /* Pods-ZhangHongHomeModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZhangHongHomeModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2DF48620EE55D8EBE3C9D1AD8AB3CD1 /* ZhangHongBaseModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZhangHongBaseModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B19D2D653BDA5AE6DDC20049E9DBCD /* ZhangHongBaseModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZhangHongBaseModule-dummy.m"; sourceTree = "<group>"; };
 		C6210651172A989F690C01E6C9F0EB21 /* ZhangHongHomeModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZhangHongHomeModule-Info.plist"; sourceTree = "<group>"; };
 		CF0342B897A28C4C767888C753772594 /* Pods-ZhangHongHomeModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZhangHongHomeModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D78DB852F5E63B5A51353B6916792A93 /* ZHHomeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHHomeController.h; path = ZhangHongHomeModule/Classes/Controller/ZHHomeController.h; sourceTree = "<group>"; };
+		DB2BD706EAF7FFED7996CF9B318436CC /* ZhangHongBaseModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZhangHongBaseModule.modulemap; sourceTree = "<group>"; };
 		DDF1F6A7AFD940C67C998830DA96D428 /* ZhangHongHomeModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZhangHongHomeModule.release.xcconfig; sourceTree = "<group>"; };
 		DFF2FC82EE264980C78C4E7286B56625 /* Pods-ZhangHongHomeModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZhangHongHomeModule_Tests.modulemap"; sourceTree = "<group>"; };
+		EEDB90480A607B85376D9EB9969A8F7C /* UIColor+Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Common.m"; path = "ZhangHongBaseModule/Classes/UIColor+Common.m"; sourceTree = "<group>"; };
 		F362C5FD3810576D6097507A63575535 /* ZhangHongHomeModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZhangHongHomeModule.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1C711FB5242CBA64C5E70C2C007AB6AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E273F86AB5090E1F95E85327AF2FDA94 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		629D212CD5023E463938FB3013887BD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,11 +114,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92D1BB836E047A4C97393B49FEB5DB56 /* Frameworks */ = {
+		74278DC7ADB6E47CCF861DD1CA020D65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522BBEB9F90BF8DEAA8C74C5726D6D68 /* Foundation.framework in Frameworks */,
+				BB02DC0408604AB187D04C2BFBF47A36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0C9D48526D7E035FA2D67D5EB1CDE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199C559C3546E91FD6C84BAED1B68BBF /* Foundation.framework in Frameworks */,
+				92DFEECF62ACA96AFCC74568BA06E808 /* ZhangHongBaseModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F88FF4C6B417C5D1C5C1C050A14044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DF9A62F3C0EB0B12C62185D7BE32C1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +157,14 @@
 			path = "Example/Pods/Target Support Files/ZhangHongHomeModule";
 			sourceTree = "<group>";
 		};
+		3C18A2931442FE5C3A4CCF34766C7967 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D463D44DFC6146967C8238FC8DE12CDD /* ZhangHongBaseModule */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		67EA5F463F4ADACEA03046873914017F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,24 +173,6 @@
 				09FAFF344D57111441C9B296915EBA31 /* ZhangHongHomeModule.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		6A1DE21A65CFD269ED2DD463B5B28EBA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				77DBDCF85F065EE348190122E5E9CF4B /* Pods_ZhangHongHomeModule_Example.framework */,
-				3027253CC4945CFF2530ABBCBBDEC58C /* Pods_ZhangHongHomeModule_Tests.framework */,
-				55CC248E6F5CFB326C80AB5FBC22B8A2 /* ZhangHongHomeModule.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		C6DD7D6AABB710FE8D07E97222807B5C /* Pods-ZhangHongHomeModule_Example */ = {
@@ -192,8 +222,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				E2CBD08265112BF3066C0C66A69619BB /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				6A1DE21A65CFD269ED2DD463B5B28EBA /* Products */,
+				EF46099BDE1C26A0C6C8A75670153245 /* Frameworks */,
+				3C18A2931442FE5C3A4CCF34766C7967 /* Pods */,
+				FCF654CA4C645FB04BD7F437843AC364 /* Products */,
 				C805D9678BDFD7FD54395400B949F986 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -210,12 +241,15 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D463D44DFC6146967C8238FC8DE12CDD /* ZhangHongBaseModule */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				78360C39A9D01D1C281123823E6EBDA5 /* UIColor+Common.h */,
+				EEDB90480A607B85376D9EB9969A8F7C /* UIColor+Common.m */,
+				F35887EDED1A8FA5E00474C0DA06B47E /* Support Files */,
 			);
-			name = Frameworks;
+			name = ZhangHongBaseModule;
+			path = ZhangHongBaseModule;
 			sourceTree = "<group>";
 		};
 		E2CBD08265112BF3066C0C66A69619BB /* Development Pods */ = {
@@ -226,14 +260,66 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		E45ADA6938429044C6DBB09739474F63 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				94024DB06E639618BE2596C724A724BD /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EF46099BDE1C26A0C6C8A75670153245 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2DF48620EE55D8EBE3C9D1AD8AB3CD1 /* ZhangHongBaseModule.framework */,
+				E45ADA6938429044C6DBB09739474F63 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F35887EDED1A8FA5E00474C0DA06B47E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB2BD706EAF7FFED7996CF9B318436CC /* ZhangHongBaseModule.modulemap */,
+				C5B19D2D653BDA5AE6DDC20049E9DBCD /* ZhangHongBaseModule-dummy.m */,
+				8ED75D30063E3D7850BF3A5C25A5A593 /* ZhangHongBaseModule-Info.plist */,
+				7A4FA2268315E37A775C20D17637F525 /* ZhangHongBaseModule-prefix.pch */,
+				0DC34E8F91B4F9FFCACC32FF7BED7BB7 /* ZhangHongBaseModule-umbrella.h */,
+				23DC55A33B06D4976D20A20901EF0F8E /* ZhangHongBaseModule.debug.xcconfig */,
+				88EE29F18744D605DC959BA1E4B1AD1F /* ZhangHongBaseModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZhangHongBaseModule";
+			sourceTree = "<group>";
+		};
+		FCF654CA4C645FB04BD7F437843AC364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77DBDCF85F065EE348190122E5E9CF4B /* Pods_ZhangHongHomeModule_Example.framework */,
+				3027253CC4945CFF2530ABBCBBDEC58C /* Pods_ZhangHongHomeModule_Tests.framework */,
+				3646AF73D88465644FE83EF21C6926E8 /* ZhangHongBaseModule.framework */,
+				55CC248E6F5CFB326C80AB5FBC22B8A2 /* ZhangHongHomeModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7D0319803724F8D172AD4A5AEC0B68BD /* Headers */ = {
+		869BEA473832457AA79ADEA6433D80E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				038E760A617104351FCEC8DD62BBE6AE /* Pods-ZhangHongHomeModule_Example-umbrella.h in Headers */,
+				61E369F20CD4C9043CBB7B8923B41E49 /* Pods-ZhangHongHomeModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5D6981143ED4D4835F65CE7B42C4FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02CA7AF342C6356F064FB5CBB16925B /* ZhangHongHomeModule-umbrella.h in Headers */,
+				A806BFE4763AA8EDABD923693DE939EF /* ZHHomeController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,12 +331,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEDF9EEE12279280424A7BD5CAB9FCFD /* Headers */ = {
+		EAA7F13D3FCD7C2A02FA27213B21F978 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2635594245F1B89B71E736A4F821A2A /* ZhangHongHomeModule-umbrella.h in Headers */,
-				701F9E0268B7676D9169175DC0EBC808 /* ZHHomeController.h in Headers */,
+				C2E1DD24432037C59750690F5C1C9340 /* UIColor+Common.h in Headers */,
+				3CF0201B54E699089C86553C67724919 /* ZhangHongBaseModule-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,16 +345,17 @@
 /* Begin PBXNativeTarget section */
 		3123653E758F331CBCCDDFF2F485FCB1 /* ZhangHongHomeModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B9576BA9454A6255E84AEAF7D7F72AA /* Build configuration list for PBXNativeTarget "ZhangHongHomeModule" */;
+			buildConfigurationList = 8EAEE20752F6B1C1EEE96C1872A7C95C /* Build configuration list for PBXNativeTarget "ZhangHongHomeModule" */;
 			buildPhases = (
-				FEDF9EEE12279280424A7BD5CAB9FCFD /* Headers */,
-				D33541FE63A7165DFE376E498505A451 /* Sources */,
-				92D1BB836E047A4C97393B49FEB5DB56 /* Frameworks */,
-				2297066884EBD607D582357581A4E817 /* Resources */,
+				8B5D6981143ED4D4835F65CE7B42C4FB /* Headers */,
+				28C9718F21D8F9BC8B33AB742E5A0E06 /* Sources */,
+				CE0C9D48526D7E035FA2D67D5EB1CDE7 /* Frameworks */,
+				CDE739607A8745BAEA09010B4551637A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				53CF45E2A76481AE7B4EB53633E7DE09 /* PBXTargetDependency */,
 			);
 			name = ZhangHongHomeModule;
 			productName = ZhangHongHomeModule;
@@ -277,17 +364,18 @@
 		};
 		3689E6124F4107F7CCE9F9F824A745E5 /* Pods-ZhangHongHomeModule_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A93ED4E3B66931022FD28361C4FCB0B7 /* Build configuration list for PBXNativeTarget "Pods-ZhangHongHomeModule_Example" */;
+			buildConfigurationList = 28CCCB2FF532BDE8EF894CC45A2E8D40 /* Build configuration list for PBXNativeTarget "Pods-ZhangHongHomeModule_Example" */;
 			buildPhases = (
-				7D0319803724F8D172AD4A5AEC0B68BD /* Headers */,
-				8F098DCE8DC7C2B4AEBA392AD69E9B0B /* Sources */,
-				1C711FB5242CBA64C5E70C2C007AB6AB /* Frameworks */,
-				8F3C94D9FE284E5E873051EA8F6F8BFF /* Resources */,
+				869BEA473832457AA79ADEA6433D80E5 /* Headers */,
+				526EB0D5F714297ED94A37B8E26C61A7 /* Sources */,
+				74278DC7ADB6E47CCF861DD1CA020D65 /* Frameworks */,
+				5139C3BCB22A4D937396FE3DA1FD5DCE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AFE04719BE031BFB6B850DC1F404CB28 /* PBXTargetDependency */,
+				A9727CC0DE741C9F5AF65271EE5E5D9B /* PBXTargetDependency */,
+				33A1D0752258136CA7DEF14A4FCAE10E /* PBXTargetDependency */,
 			);
 			name = "Pods-ZhangHongHomeModule_Example";
 			productName = "Pods-ZhangHongHomeModule_Example";
@@ -306,11 +394,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				8F0609FDCD17E128C31BE009E296830C /* PBXTargetDependency */,
+				3D5A6057C67C148A1D47AD086B511D69 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZhangHongHomeModule_Tests";
 			productName = "Pods-ZhangHongHomeModule_Tests";
 			productReference = 3027253CC4945CFF2530ABBCBBDEC58C /* Pods_ZhangHongHomeModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB73DDBF7277467C4B86EBF3DA4B2169 /* ZhangHongBaseModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8EEFDCF88EFB95524EA1CB449185B6 /* Build configuration list for PBXNativeTarget "ZhangHongBaseModule" */;
+			buildPhases = (
+				EAA7F13D3FCD7C2A02FA27213B21F978 /* Headers */,
+				6A3D1D1929ECE266D8AD48609CACF060 /* Sources */,
+				D0F88FF4C6B417C5D1C5C1C050A14044 /* Frameworks */,
+				4EEC3CFB4B60D5AFADBF7FEF88A00F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhangHongBaseModule;
+			productName = ZhangHongBaseModule;
+			productReference = 3646AF73D88465644FE83EF21C6926E8 /* ZhangHongBaseModule.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -331,19 +437,27 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 6A1DE21A65CFD269ED2DD463B5B28EBA /* Products */;
+			productRefGroup = FCF654CA4C645FB04BD7F437843AC364 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3689E6124F4107F7CCE9F9F824A745E5 /* Pods-ZhangHongHomeModule_Example */,
 				37DF12E088A578F2EB56DF7959482391 /* Pods-ZhangHongHomeModule_Tests */,
+				AB73DDBF7277467C4B86EBF3DA4B2169 /* ZhangHongBaseModule */,
 				3123653E758F331CBCCDDFF2F485FCB1 /* ZhangHongHomeModule */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2297066884EBD607D582357581A4E817 /* Resources */ = {
+		4EEC3CFB4B60D5AFADBF7FEF88A00F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5139C3BCB22A4D937396FE3DA1FD5DCE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,7 +471,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F3C94D9FE284E5E873051EA8F6F8BFF /* Resources */ = {
+		CDE739607A8745BAEA09010B4551637A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,20 +481,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8F098DCE8DC7C2B4AEBA392AD69E9B0B /* Sources */ = {
+		28C9718F21D8F9BC8B33AB742E5A0E06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E010629C5037BEAA13495C59F87A7B9 /* Pods-ZhangHongHomeModule_Example-dummy.m in Sources */,
+				DAAA20D9F79465E875C7787476866A28 /* ZhangHongHomeModule-dummy.m in Sources */,
+				367843F55DA79910A680D4792BF14E45 /* ZHHomeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D33541FE63A7165DFE376E498505A451 /* Sources */ = {
+		526EB0D5F714297ED94A37B8E26C61A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8050FEA23CB6991160B0AD90C90C465E /* ZhangHongHomeModule-dummy.m in Sources */,
-				BDD89F62E7C1118B54D6876BC7BBFAC3 /* ZHHomeController.m in Sources */,
+				62DD2ADD7AE7967B1C717D7EE5ABEC0F /* Pods-ZhangHongHomeModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3D1D1929ECE266D8AD48609CACF060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D543D79FC1FA91A094351159FB093BB /* UIColor+Common.m in Sources */,
+				EB9441BDB66EE4882BA82B2A12827D9F /* ZhangHongBaseModule-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,55 +518,34 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8F0609FDCD17E128C31BE009E296830C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ZhangHongHomeModule_Example";
-			target = 3689E6124F4107F7CCE9F9F824A745E5 /* Pods-ZhangHongHomeModule_Example */;
-			targetProxy = 3462AB8F3328C8721D68191EC4BD4DBC /* PBXContainerItemProxy */;
-		};
-		AFE04719BE031BFB6B850DC1F404CB28 /* PBXTargetDependency */ = {
+		33A1D0752258136CA7DEF14A4FCAE10E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZhangHongHomeModule;
 			target = 3123653E758F331CBCCDDFF2F485FCB1 /* ZhangHongHomeModule */;
-			targetProxy = FA8AB4C8F05D5C4CCB3D2CF6F0311143 /* PBXContainerItemProxy */;
+			targetProxy = 3FEDF361BB98A2AAEB61A2692230D3BA /* PBXContainerItemProxy */;
+		};
+		3D5A6057C67C148A1D47AD086B511D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZhangHongHomeModule_Example";
+			target = 3689E6124F4107F7CCE9F9F824A745E5 /* Pods-ZhangHongHomeModule_Example */;
+			targetProxy = 8AD3D388B74312076112BE0F513EF259 /* PBXContainerItemProxy */;
+		};
+		53CF45E2A76481AE7B4EB53633E7DE09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZhangHongBaseModule;
+			target = AB73DDBF7277467C4B86EBF3DA4B2169 /* ZhangHongBaseModule */;
+			targetProxy = 0E5FF42623CAB9C9FDB8B01654542422 /* PBXContainerItemProxy */;
+		};
+		A9727CC0DE741C9F5AF65271EE5E5D9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZhangHongBaseModule;
+			target = AB73DDBF7277467C4B86EBF3DA4B2169 /* ZhangHongBaseModule */;
+			targetProxy = A9E089DAD21F41BB58F219AC9A833A3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A195CF855B88C65214A8F7B8AE5F7D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6978F8BC801B688C2211A2395C567D43 /* Pods-ZhangHongHomeModule_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZhangHongHomeModule_Example/Pods-ZhangHongHomeModule_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZhangHongHomeModule_Example/Pods-ZhangHongHomeModule_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		215281E15B5A0292C2BD9024F68FE92E /* Release */ = {
+		08CFC4F1E6C0150304FC5315A8AA72D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DDF1F6A7AFD940C67C998830DA96D428 /* ZhangHongHomeModule.release.xcconfig */;
 			buildSettings = {
@@ -474,6 +576,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		22806A42B1D527773B6D2D2E618752F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DC55A33B06D4976D20A20901EF0F8E /* ZhangHongBaseModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZhangHongBaseModule/ZhangHongBaseModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZhangHongBaseModule/ZhangHongBaseModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZhangHongBaseModule/ZhangHongBaseModule.modulemap";
+				PRODUCT_MODULE_NAME = ZhangHongBaseModule;
+				PRODUCT_NAME = ZhangHongBaseModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		24383CB5F39EA1D49111BA75E5FFAE32 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -508,6 +641,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		315A73682B6ACAB324372C2FD1AB8552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6978F8BC801B688C2211A2395C567D43 /* Pods-ZhangHongHomeModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZhangHongHomeModule_Example/Pods-ZhangHongHomeModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZhangHongHomeModule_Example/Pods-ZhangHongHomeModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -602,9 +768,9 @@
 			};
 			name = Debug;
 		};
-		754362766EBF4AC8AC7679A42AEAE905 /* Debug */ = {
+		7B247B5B4B35453435A6266E098B8597 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F362C5FD3810576D6097507A63575535 /* ZhangHongHomeModule.debug.xcconfig */;
+			baseConfigurationReference = 88EE29F18744D605DC959BA1E4B1AD1F /* ZhangHongBaseModule.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -615,23 +781,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZhangHongHomeModule/ZhangHongHomeModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZhangHongHomeModule/ZhangHongHomeModule-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ZhangHongBaseModule/ZhangHongBaseModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZhangHongBaseModule/ZhangHongBaseModule-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZhangHongHomeModule/ZhangHongHomeModule.modulemap";
-				PRODUCT_MODULE_NAME = ZhangHongHomeModule;
-				PRODUCT_NAME = ZhangHongHomeModule;
+				MODULEMAP_FILE = "Target Support Files/ZhangHongBaseModule/ZhangHongBaseModule.modulemap";
+				PRODUCT_MODULE_NAME = ZhangHongBaseModule;
+				PRODUCT_NAME = ZhangHongBaseModule;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -697,7 +864,7 @@
 			};
 			name = Debug;
 		};
-		9FE08F594DE8014DE05D267E1A38979A /* Release */ = {
+		A55FBD05A0CAE01E563BFB7FD37963BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35DFFEE3149346D4BFE9F13659980AEC /* Pods-ZhangHongHomeModule_Example.release.xcconfig */;
 			buildSettings = {
@@ -731,14 +898,45 @@
 			};
 			name = Release;
 		};
+		AC2520032A13F874AECDA3B7CB2AA441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F362C5FD3810576D6097507A63575535 /* ZhangHongHomeModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZhangHongHomeModule/ZhangHongHomeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZhangHongHomeModule/ZhangHongHomeModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZhangHongHomeModule/ZhangHongHomeModule.modulemap";
+				PRODUCT_MODULE_NAME = ZhangHongHomeModule;
+				PRODUCT_NAME = ZhangHongHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B9576BA9454A6255E84AEAF7D7F72AA /* Build configuration list for PBXNativeTarget "ZhangHongHomeModule" */ = {
+		28CCCB2FF532BDE8EF894CC45A2E8D40 /* Build configuration list for PBXNativeTarget "Pods-ZhangHongHomeModule_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				754362766EBF4AC8AC7679A42AEAE905 /* Debug */,
-				215281E15B5A0292C2BD9024F68FE92E /* Release */,
+				315A73682B6ACAB324372C2FD1AB8552 /* Debug */,
+				A55FBD05A0CAE01E563BFB7FD37963BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -752,6 +950,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4C8EEFDCF88EFB95524EA1CB449185B6 /* Build configuration list for PBXNativeTarget "ZhangHongBaseModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22806A42B1D527773B6D2D2E618752F4 /* Debug */,
+				7B247B5B4B35453435A6266E098B8597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5C6A1A49CBAAFA33A9B2A5D488F43D45 /* Build configuration list for PBXNativeTarget "Pods-ZhangHongHomeModule_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -761,11 +968,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A93ED4E3B66931022FD28361C4FCB0B7 /* Build configuration list for PBXNativeTarget "Pods-ZhangHongHomeModule_Example" */ = {
+		8EAEE20752F6B1C1EEE96C1872A7C95C /* Build configuration list for PBXNativeTarget "ZhangHongHomeModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A195CF855B88C65214A8F7B8AE5F7D2 /* Debug */,
-				9FE08F594DE8014DE05D267E1A38979A /* Release */,
+				AC2520032A13F874AECDA3B7CB2AA441 /* Debug */,
+				08CFC4F1E6C0150304FC5315A8AA72D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

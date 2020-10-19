@@ -1,16 +1,24 @@
 PODS:
-  - ZhangHongHomeModule (0.1.0)
+  - ZhangHongBaseModule (0.1.0)
+  - ZhangHongHomeModule (0.1.2):
+    - ZhangHongBaseModule
 
 DEPENDENCIES:
+  - ZhangHongBaseModule
   - ZhangHongHomeModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ZhangHongBaseModule
 
 EXTERNAL SOURCES:
   ZhangHongHomeModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZhangHongHomeModule: 10486c079879c91242a6ea601f3a73ee9d01d4eb
+  ZhangHongBaseModule: 7afb204c0357d0203359a6697ea08ee5aa9525d1
+  ZhangHongHomeModule: 8cac5891fee6b92f5307cd81a7bd30270c40e18d
 
-PODFILE CHECKSUM: 1f5e93b78537a69a78343be4a4c1004b58c7cc14
+PODFILE CHECKSUM: 232b8f2b15727553c637ee22880cf0438d8d530a
 
 COCOAPODS: 1.9.3

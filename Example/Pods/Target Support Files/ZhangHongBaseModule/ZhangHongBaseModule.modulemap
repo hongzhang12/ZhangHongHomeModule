@@ -1,0 +1,6 @@
+framework module ZhangHongBaseModule {
+  umbrella header "ZhangHongBaseModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

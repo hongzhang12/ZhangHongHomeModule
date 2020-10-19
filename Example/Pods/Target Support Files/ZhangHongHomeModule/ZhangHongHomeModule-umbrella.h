@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZHHomeController.h"
 
 FOUNDATION_EXPORT double ZhangHongHomeModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZhangHongHomeModuleVersionString[];

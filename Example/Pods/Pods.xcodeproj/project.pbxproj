@@ -9,25 +9,26 @@
 /* Begin PBXBuildFile section */
 		038E760A617104351FCEC8DD62BBE6AE /* Pods-ZhangHongHomeModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 343E147C945E4CB08CC601E188C415BB /* Pods-ZhangHongHomeModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07F10687FD1745D693DFE23B3A5D0733 /* Pods-ZhangHongHomeModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49827CB08B54D1097E5D9985A58554B3 /* Pods-ZhangHongHomeModule_Tests-dummy.m */; };
-		0B01CAFFE34B90A21EA927731216890A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2BD2F735A1522F863AFEFF34E79593A3 /* ZhangHongHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 374FC7A00D8D2D6B41E7280C833B8460 /* ZhangHongHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C4F9E8394F5551542E213D853DB3D89 /* ZhangHongHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF0A7A22FB9FEE532CFD3B59B79166A /* ZhangHongHomeModule-dummy.m */; };
+		522BBEB9F90BF8DEAA8C74C5726D6D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		701F9E0268B7676D9169175DC0EBC808 /* ZHHomeController.h in Headers */ = {isa = PBXBuildFile; fileRef = D78DB852F5E63B5A51353B6916792A93 /* ZHHomeController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E010629C5037BEAA13495C59F87A7B9 /* Pods-ZhangHongHomeModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B21B656A682F5B6F06115DC3AF8EF9 /* Pods-ZhangHongHomeModule_Example-dummy.m */; };
 		7E39BD09357F78EC6505BCDFF9FEE966 /* Pods-ZhangHongHomeModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C060DFAD6AEA32C30FC9CC6D5E3CA7C /* Pods-ZhangHongHomeModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8050FEA23CB6991160B0AD90C90C465E /* ZhangHongHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3740367C8C9CAED5DA1049AE5A446B57 /* ZhangHongHomeModule-dummy.m */; };
 		AC6DF9C79925C7D3262C637F3C0528CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D2DC2E2305C7773DA195B1163F287D15 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA5E07291A821C8BBF656D3FE7A2A7 /* ReplaceMe.m */; };
+		BDD89F62E7C1118B54D6876BC7BBFAC3 /* ZHHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9898ADBDEDFFD585D9245DB0F97DDFF7 /* ZHHomeController.m */; };
+		C2635594245F1B89B71E736A4F821A2A /* ZhangHongHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C7C656D2D74EEEFC3BC1E23EC868C4 /* ZhangHongHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E273F86AB5090E1F95E85327AF2FDA94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		836FADD8551E49C9DF866F6D61C5ED9B /* PBXContainerItemProxy */ = {
+		3462AB8F3328C8721D68191EC4BD4DBC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3689E6124F4107F7CCE9F9F824A745E5;
 			remoteInfo = "Pods-ZhangHongHomeModule_Example";
 		};
-		E23608945908385B70BFC37A8410EF1A /* PBXContainerItemProxy */ = {
+		FA8AB4C8F05D5C4CCB3D2CF6F0311143 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,39 +38,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		045F266F32BDA172B41A0A35C76AF726 /* ZhangHongHomeModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZhangHongHomeModule.debug.xcconfig; sourceTree = "<group>"; };
+		0431FAE1B669DEBF8AF98B4DEDF64775 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		09FAFF344D57111441C9B296915EBA31 /* ZhangHongHomeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZhangHongHomeModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0C060DFAD6AEA32C30FC9CC6D5E3CA7C /* Pods-ZhangHongHomeModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZhangHongHomeModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		26EDA1D1A8ECA7618632A75E6B0F9EC3 /* Pods-ZhangHongHomeModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZhangHongHomeModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2C80ABEC3C101D1D4B517C9B93D604E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2B0ECE660433E43A926DDF0EA266FA8E /* ZhangHongHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZhangHongHomeModule.modulemap; sourceTree = "<group>"; };
 		3027253CC4945CFF2530ABBCBBDEC58C /* Pods_ZhangHongHomeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZhangHongHomeModule_Tests.framework; path = "Pods-ZhangHongHomeModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		343E147C945E4CB08CC601E188C415BB /* Pods-ZhangHongHomeModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZhangHongHomeModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		35DFFEE3149346D4BFE9F13659980AEC /* Pods-ZhangHongHomeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZhangHongHomeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		374FC7A00D8D2D6B41E7280C833B8460 /* ZhangHongHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZhangHongHomeModule-umbrella.h"; sourceTree = "<group>"; };
+		3740367C8C9CAED5DA1049AE5A446B57 /* ZhangHongHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZhangHongHomeModule-dummy.m"; sourceTree = "<group>"; };
 		37A44FA629014D13FEDADE339EE95675 /* Pods-ZhangHongHomeModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZhangHongHomeModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		45CA58123F5838CC1AFA2AF759A7FE02 /* Pods-ZhangHongHomeModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZhangHongHomeModule_Example-Info.plist"; sourceTree = "<group>"; };
 		49827CB08B54D1097E5D9985A58554B3 /* Pods-ZhangHongHomeModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZhangHongHomeModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		49E74B495CCFE543E9B281D0DC2E446B /* Pods-ZhangHongHomeModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZhangHongHomeModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		55CC248E6F5CFB326C80AB5FBC22B8A2 /* ZhangHongHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZhangHongHomeModule.framework; path = ZhangHongHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3843754E2B5562FBBEBD427A97429F /* ZhangHongHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZhangHongHomeModule-prefix.pch"; sourceTree = "<group>"; };
 		64282FA16F3BDF40E02E1AE95FDE1296 /* Pods-ZhangHongHomeModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZhangHongHomeModule_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6978F8BC801B688C2211A2395C567D43 /* Pods-ZhangHongHomeModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZhangHongHomeModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		75C7C656D2D74EEEFC3BC1E23EC868C4 /* ZhangHongHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZhangHongHomeModule-umbrella.h"; sourceTree = "<group>"; };
 		77DBDCF85F065EE348190122E5E9CF4B /* Pods_ZhangHongHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZhangHongHomeModule_Example.framework; path = "Pods-ZhangHongHomeModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FFA5E07291A821C8BBF656D3FE7A2A7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZhangHongHomeModule/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		8267D9AEF7D814A346986CB478ECFB8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		85717C7A40C69AAA15BADF9A753AFCB1 /* Pods-ZhangHongHomeModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZhangHongHomeModule_Example.modulemap"; sourceTree = "<group>"; };
 		8F0DDF1D1CF30E26298569C03B35BDA9 /* Pods-ZhangHongHomeModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZhangHongHomeModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		976D19F149BD1CCE1BE46CB6A8556CBE /* ZhangHongHomeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZhangHongHomeModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9898ADBDEDFFD585D9245DB0F97DDFF7 /* ZHHomeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHHomeController.m; path = ZhangHongHomeModule/Classes/Controller/ZHHomeController.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A471A8DDD218643719FA32B0727113E5 /* ZhangHongHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZhangHongHomeModule.modulemap; sourceTree = "<group>"; };
 		B2843C1BC753A53E20A391AFD597CAC4 /* Pods-ZhangHongHomeModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZhangHongHomeModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B76CF983CF2D62A8250952D782F6B2F5 /* ZhangHongHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZhangHongHomeModule-prefix.pch"; sourceTree = "<group>"; };
 		C1B21B656A682F5B6F06115DC3AF8EF9 /* Pods-ZhangHongHomeModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZhangHongHomeModule_Example-dummy.m"; sourceTree = "<group>"; };
 		C2AD0B59762C978A09508A79E561EEE3 /* Pods-ZhangHongHomeModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZhangHongHomeModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CCF0A7A22FB9FEE532CFD3B59B79166A /* ZhangHongHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZhangHongHomeModule-dummy.m"; sourceTree = "<group>"; };
+		C6210651172A989F690C01E6C9F0EB21 /* ZhangHongHomeModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZhangHongHomeModule-Info.plist"; sourceTree = "<group>"; };
 		CF0342B897A28C4C767888C753772594 /* Pods-ZhangHongHomeModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZhangHongHomeModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DEF92CE74179BB35D49BE6A49B6A47D2 /* ZhangHongHomeModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZhangHongHomeModule-Info.plist"; sourceTree = "<group>"; };
+		D78DB852F5E63B5A51353B6916792A93 /* ZHHomeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHHomeController.h; path = ZhangHongHomeModule/Classes/Controller/ZHHomeController.h; sourceTree = "<group>"; };
+		DDF1F6A7AFD940C67C998830DA96D428 /* ZhangHongHomeModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZhangHongHomeModule.release.xcconfig; sourceTree = "<group>"; };
 		DFF2FC82EE264980C78C4E7286B56625 /* Pods-ZhangHongHomeModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZhangHongHomeModule_Tests.modulemap"; sourceTree = "<group>"; };
-		ECF91329DD28E298BF5C2775FA78D8BD /* ZhangHongHomeModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZhangHongHomeModule.release.xcconfig; sourceTree = "<group>"; };
-		F9DC450EDC5A1548649956E71821A892 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F362C5FD3810576D6097507A63575535 /* ZhangHongHomeModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZhangHongHomeModule.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +83,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		514D543BF24DB31C36D4C9B671ED3143 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B01CAFFE34B90A21EA927731216890A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		629D212CD5023E463938FB3013887BD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,26 +91,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92D1BB836E047A4C97393B49FEB5DB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522BBEB9F90BF8DEAA8C74C5726D6D68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1943CE820A21ECB25028AD988B0C2A3C /* Development Pods */ = {
+		2D62FD585E3538BE06C3B28B1010C0D0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				480366EE24D590E4382F84E601FDD4CA /* ZhangHongHomeModule */,
+				2B0ECE660433E43A926DDF0EA266FA8E /* ZhangHongHomeModule.modulemap */,
+				3740367C8C9CAED5DA1049AE5A446B57 /* ZhangHongHomeModule-dummy.m */,
+				C6210651172A989F690C01E6C9F0EB21 /* ZhangHongHomeModule-Info.plist */,
+				5D3843754E2B5562FBBEBD427A97429F /* ZhangHongHomeModule-prefix.pch */,
+				75C7C656D2D74EEEFC3BC1E23EC868C4 /* ZhangHongHomeModule-umbrella.h */,
+				F362C5FD3810576D6097507A63575535 /* ZhangHongHomeModule.debug.xcconfig */,
+				DDF1F6A7AFD940C67C998830DA96D428 /* ZhangHongHomeModule.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZhangHongHomeModule";
 			sourceTree = "<group>";
 		};
-		480366EE24D590E4382F84E601FDD4CA /* ZhangHongHomeModule */ = {
+		67EA5F463F4ADACEA03046873914017F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7FFA5E07291A821C8BBF656D3FE7A2A7 /* ReplaceMe.m */,
-				E0B3244C1F6759C44EF4C8B2B1EE0929 /* Pod */,
-				EC1AAFF37D95FB3E9590CD3003F6C0A6 /* Support Files */,
+				8267D9AEF7D814A346986CB478ECFB8F /* LICENSE */,
+				0431FAE1B669DEBF8AF98B4DEDF64775 /* README.md */,
+				09FAFF344D57111441C9B296915EBA31 /* ZhangHongHomeModule.podspec */,
 			);
-			name = ZhangHongHomeModule;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6A1DE21A65CFD269ED2DD463B5B28EBA /* Products */ = {
@@ -183,11 +191,23 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1943CE820A21ECB25028AD988B0C2A3C /* Development Pods */,
+				E2CBD08265112BF3066C0C66A69619BB /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				6A1DE21A65CFD269ED2DD463B5B28EBA /* Products */,
 				C805D9678BDFD7FD54395400B949F986 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D09FFE5ECC17BCE51FE3BE0FA077FAE1 /* ZhangHongHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				D78DB852F5E63B5A51353B6916792A93 /* ZHHomeController.h */,
+				9898ADBDEDFFD585D9245DB0F97DDFF7 /* ZHHomeController.m */,
+				67EA5F463F4ADACEA03046873914017F /* Pod */,
+				2D62FD585E3538BE06C3B28B1010C0D0 /* Support Files */,
+			);
+			name = ZhangHongHomeModule;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -198,29 +218,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E0B3244C1F6759C44EF4C8B2B1EE0929 /* Pod */ = {
+		E2CBD08265112BF3066C0C66A69619BB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2C80ABEC3C101D1D4B517C9B93D604E8 /* LICENSE */,
-				F9DC450EDC5A1548649956E71821A892 /* README.md */,
-				976D19F149BD1CCE1BE46CB6A8556CBE /* ZhangHongHomeModule.podspec */,
+				D09FFE5ECC17BCE51FE3BE0FA077FAE1 /* ZhangHongHomeModule */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EC1AAFF37D95FB3E9590CD3003F6C0A6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A471A8DDD218643719FA32B0727113E5 /* ZhangHongHomeModule.modulemap */,
-				CCF0A7A22FB9FEE532CFD3B59B79166A /* ZhangHongHomeModule-dummy.m */,
-				DEF92CE74179BB35D49BE6A49B6A47D2 /* ZhangHongHomeModule-Info.plist */,
-				B76CF983CF2D62A8250952D782F6B2F5 /* ZhangHongHomeModule-prefix.pch */,
-				374FC7A00D8D2D6B41E7280C833B8460 /* ZhangHongHomeModule-umbrella.h */,
-				045F266F32BDA172B41A0A35C76AF726 /* ZhangHongHomeModule.debug.xcconfig */,
-				ECF91329DD28E298BF5C2775FA78D8BD /* ZhangHongHomeModule.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZhangHongHomeModule";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,11 +245,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBB8B36D2707624B33467DBFDE720182 /* Headers */ = {
+		FEDF9EEE12279280424A7BD5CAB9FCFD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BD2F735A1522F863AFEFF34E79593A3 /* ZhangHongHomeModule-umbrella.h in Headers */,
+				C2635594245F1B89B71E736A4F821A2A /* ZhangHongHomeModule-umbrella.h in Headers */,
+				701F9E0268B7676D9169175DC0EBC808 /* ZHHomeController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +259,12 @@
 /* Begin PBXNativeTarget section */
 		3123653E758F331CBCCDDFF2F485FCB1 /* ZhangHongHomeModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75805846A1A15BBD89C6B0600DDEA5C0 /* Build configuration list for PBXNativeTarget "ZhangHongHomeModule" */;
+			buildConfigurationList = 1B9576BA9454A6255E84AEAF7D7F72AA /* Build configuration list for PBXNativeTarget "ZhangHongHomeModule" */;
 			buildPhases = (
-				DBB8B36D2707624B33467DBFDE720182 /* Headers */,
-				5EFBB3884F5509EFB72D388D9257AD30 /* Sources */,
-				514D543BF24DB31C36D4C9B671ED3143 /* Frameworks */,
-				E74B77B14C2BA294D9C90710093F1BD6 /* Resources */,
+				FEDF9EEE12279280424A7BD5CAB9FCFD /* Headers */,
+				D33541FE63A7165DFE376E498505A451 /* Sources */,
+				92D1BB836E047A4C97393B49FEB5DB56 /* Frameworks */,
+				2297066884EBD607D582357581A4E817 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6B680D0FE9597E3E328D826FAC2D59B4 /* PBXTargetDependency */,
+				AFE04719BE031BFB6B850DC1F404CB28 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZhangHongHomeModule_Example";
 			productName = "Pods-ZhangHongHomeModule_Example";
@@ -302,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B4FEA747F584E58962BDD645F6EC72E5 /* PBXTargetDependency */,
+				8F0609FDCD17E128C31BE009E296830C /* PBXTargetDependency */,
 			);
 			name = "Pods-ZhangHongHomeModule_Tests";
 			productName = "Pods-ZhangHongHomeModule_Tests";
@@ -339,6 +343,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2297066884EBD607D582357581A4E817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6233BEB103AC92426E604F34669AC661 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,30 +364,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E74B77B14C2BA294D9C90710093F1BD6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5EFBB3884F5509EFB72D388D9257AD30 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2DC2E2305C7773DA195B1163F287D15 /* ReplaceMe.m in Sources */,
-				6C4F9E8394F5551542E213D853DB3D89 /* ZhangHongHomeModule-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8F098DCE8DC7C2B4AEBA392AD69E9B0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7E010629C5037BEAA13495C59F87A7B9 /* Pods-ZhangHongHomeModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33541FE63A7165DFE376E498505A451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8050FEA23CB6991160B0AD90C90C465E /* ZhangHongHomeModule-dummy.m in Sources */,
+				BDD89F62E7C1118B54D6876BC7BBFAC3 /* ZHHomeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +395,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6B680D0FE9597E3E328D826FAC2D59B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZhangHongHomeModule;
-			target = 3123653E758F331CBCCDDFF2F485FCB1 /* ZhangHongHomeModule */;
-			targetProxy = E23608945908385B70BFC37A8410EF1A /* PBXContainerItemProxy */;
-		};
-		B4FEA747F584E58962BDD645F6EC72E5 /* PBXTargetDependency */ = {
+		8F0609FDCD17E128C31BE009E296830C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZhangHongHomeModule_Example";
 			target = 3689E6124F4107F7CCE9F9F824A745E5 /* Pods-ZhangHongHomeModule_Example */;
-			targetProxy = 836FADD8551E49C9DF866F6D61C5ED9B /* PBXContainerItemProxy */;
+			targetProxy = 3462AB8F3328C8721D68191EC4BD4DBC /* PBXContainerItemProxy */;
+		};
+		AFE04719BE031BFB6B850DC1F404CB28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZhangHongHomeModule;
+			target = 3123653E758F331CBCCDDFF2F485FCB1 /* ZhangHongHomeModule */;
+			targetProxy = FA8AB4C8F05D5C4CCB3D2CF6F0311143 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -439,6 +443,38 @@
 			};
 			name = Debug;
 		};
+		215281E15B5A0292C2BD9024F68FE92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF1F6A7AFD940C67C998830DA96D428 /* ZhangHongHomeModule.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZhangHongHomeModule/ZhangHongHomeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZhangHongHomeModule/ZhangHongHomeModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZhangHongHomeModule/ZhangHongHomeModule.modulemap";
+				PRODUCT_MODULE_NAME = ZhangHongHomeModule;
+				PRODUCT_NAME = ZhangHongHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		24383CB5F39EA1D49111BA75E5FFAE32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 26EDA1D1A8ECA7618632A75E6B0F9EC3 /* Pods-ZhangHongHomeModule_Tests.release.xcconfig */;
@@ -466,38 +502,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4980A16241B621DEA9756BCDBE72F402 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECF91329DD28E298BF5C2775FA78D8BD /* ZhangHongHomeModule.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZhangHongHomeModule/ZhangHongHomeModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZhangHongHomeModule/ZhangHongHomeModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZhangHongHomeModule/ZhangHongHomeModule.modulemap";
-				PRODUCT_MODULE_NAME = ZhangHongHomeModule;
-				PRODUCT_NAME = ZhangHongHomeModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -598,9 +602,9 @@
 			};
 			name = Debug;
 		};
-		6DC1C0B7922B73323271CFECA622E627 /* Debug */ = {
+		754362766EBF4AC8AC7679A42AEAE905 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 045F266F32BDA172B41A0A35C76AF726 /* ZhangHongHomeModule.debug.xcconfig */;
+			baseConfigurationReference = F362C5FD3810576D6097507A63575535 /* ZhangHongHomeModule.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -730,6 +734,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B9576BA9454A6255E84AEAF7D7F72AA /* Build configuration list for PBXNativeTarget "ZhangHongHomeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754362766EBF4AC8AC7679A42AEAE905 /* Debug */,
+				215281E15B5A0292C2BD9024F68FE92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -744,15 +757,6 @@
 			buildConfigurations = (
 				5F83267C93C26AA99D46E36948C180BE /* Debug */,
 				24383CB5F39EA1D49111BA75E5FFAE32 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		75805846A1A15BBD89C6B0600DDEA5C0 /* Build configuration list for PBXNativeTarget "ZhangHongHomeModule" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6DC1C0B7922B73323271CFECA622E627 /* Debug */,
-				4980A16241B621DEA9756BCDBE72F402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

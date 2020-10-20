@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIColor *)commonColor;
 
++ (UIColor *)backgroundColor;
+
 @end
 
 NS_ASSUME_NONNULL_END

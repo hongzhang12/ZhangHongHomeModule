@@ -5,7 +5,7 @@ platform :ios, '8.0'
 
 target 'ZhangHongHomeModule_Example' do
   pod 'ZhangHongHomeModule', :path => '../'
-  pod 'ZhangHongBaseModule'
+#  pod 'ZhangHongBaseModule'
 
   target 'ZhangHongHomeModule_Tests' do
     inherit! :search_paths

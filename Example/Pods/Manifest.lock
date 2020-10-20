@@ -1,10 +1,9 @@
 PODS:
-  - ZhangHongBaseModule (0.1.0)
-  - ZhangHongHomeModule (0.1.2):
+  - ZhangHongBaseModule (0.1.1)
+  - ZhangHongHomeModule (0.1.4):
     - ZhangHongBaseModule
 
 DEPENDENCIES:
-  - ZhangHongBaseModule
   - ZhangHongHomeModule (from `../`)
 
 SPEC REPOS:
@@ -16,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZhangHongBaseModule: 7afb204c0357d0203359a6697ea08ee5aa9525d1
-  ZhangHongHomeModule: 8cac5891fee6b92f5307cd81a7bd30270c40e18d
+  ZhangHongBaseModule: 420a9fdc6df43fcc5f3c3e48e62b4f788f9d2250
+  ZhangHongHomeModule: 9d331b0891f5a6f98077881957f095842ba5bd54
 
-PODFILE CHECKSUM: 232b8f2b15727553c637ee22880cf0438d8d530a
+PODFILE CHECKSUM: c3eb50e11f3f6ceda76677ffec258c7ea9510291
 
 COCOAPODS: 1.9.3

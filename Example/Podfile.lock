@@ -1,6 +1,22 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
   - ZhangHongBaseModule (0.1.1)
-  - ZhangHongHomeModule (0.1.4):
+  - ZhangHongHomeModule (0.1.5):
+    - AFNetworking
     - ZhangHongBaseModule
 
 DEPENDENCIES:
@@ -8,6 +24,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
     - ZhangHongBaseModule
 
 EXTERNAL SOURCES:
@@ -15,8 +32,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   ZhangHongBaseModule: 420a9fdc6df43fcc5f3c3e48e62b4f788f9d2250
-  ZhangHongHomeModule: 9d331b0891f5a6f98077881957f095842ba5bd54
+  ZhangHongHomeModule: 99ad9e32f3286b404879269b5d092f350ffb7446
 
 PODFILE CHECKSUM: c3eb50e11f3f6ceda76677ffec258c7ea9510291
 
